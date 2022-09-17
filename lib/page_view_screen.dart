@@ -18,6 +18,7 @@ class PageViewScreen extends StatelessWidget {
         alignment: AlignmentDirectional.bottomEnd,
         children: [
           PageView(
+            physics:const NeverScrollableScrollPhysics(),
             controller: controller,
             children: [
               Container(
