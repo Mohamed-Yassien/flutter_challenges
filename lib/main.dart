@@ -4,7 +4,7 @@ import 'package:flutter_challenges/expansion_tile.dart';
 import 'bottom_sheet_screen.dart';
 
 main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
